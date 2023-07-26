@@ -13,10 +13,13 @@
     <h1>Phil's Weather Dashboard</h1>
     <div class="weather">
         <h2>Search For City</h2>
-        <input type="searchInput" class="weatherSearch" placeholder="City Search">
+        <input class="weatherSearch" placeholder="City Search">
+        <button class="submitBtn">Get Weather</button>
         <div class="todaysWeather">
-            <h3>Current City</h3>
-            <p>Temperature: <span class="temperature">...</span></p>
+            <h3 class="currentCity">Current City, Country</h3>
+            <h3 class="currentDate"></h3>
+            <img src="" class="weatherIcon">
+            <p>Temperature: <span class="temp">...</span></p>
             <p>Wind: <span class="wind">...</span></p>
             <p>Humidity: <span class="humidity">...</span></p>
         </div>
@@ -27,6 +30,10 @@
     </div>
  
 
-
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    
 </body>
