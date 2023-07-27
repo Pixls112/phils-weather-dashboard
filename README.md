@@ -9,13 +9,12 @@ To install my code you can use clone the repo using either the HTML or ssh key t
 
 ## Usage
 
-The main usage of this project was to demonstrate my ability to create an application that is able to use the openweatherapi to pull information from it and using javascript allow it to be displayed onto the html so that it will appear in the live deployed web application.
+The main usage of this project was to demonstrate my ability to create an application that is able to use the openweatherapi to pull information from it and using javascript allow it to be displayed onto the html so that it will appear in the live deployed web application. 
 
 ## Screenshot
 
 The following image shows the web application's appearance and functionality:
-
-
+![Screenshot of live page](https://github.com/Pixls112/phils-weather-dashboard/assets/135586632/3ef8506c-a1ca-4148-ae50-852e7d8236ce)
 
 ## Credit
 
@@ -33,7 +32,7 @@ https://github.com/Pixls112/phils-weather-dashboard
 
 ## Launched Website
 
-
+https://pixls112.github.io/phils-weather-dashboard/
 
 ## License
 
