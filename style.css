@@ -1,0 +1,63 @@
+* {
+    margin:30;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e3f2fd;
+}
+
+h1 {
+    background: #5372f0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.container {
+    padding: 10px;
+    display: block;
+    background-color:	#5372f0;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+    margin: 60px auto;
+    padding: 20px;
+    width: 80vw;
+}
+
+.upcomingForecast{
+display: flex;
+gap:20px;
+}
+
+section {
+    background-color: #6c757d;
+    width: 500px; 
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.todaysWeather{
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+}
+
+#searchBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
