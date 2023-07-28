@@ -35,7 +35,7 @@ var currentWeather = {
     },
     //Similar to the weatherDisplay, this is used to display the upcoming days weather information in the next 5 days
     forecastDisplay: function(data) {
-            for (let i = 0; i < data.list.length; i+=8){
+            for (let i = 1; i < data.list.length; i+=8){
                 
                 var { temp, humidity} = data.list[i].main
                 var { speed } = data.list[i].wind
